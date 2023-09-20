@@ -9,7 +9,7 @@ const JobDes = () => {
     const job = jobs.find(jb => jb.jobTitle === searchTitle?.jobtitle);
     // console.log(job);
 
-    const { id, jobTitle, jobDescription, workType, startDate, salary, experience, applyLastDate, responsibilities, requiredSkills } = job;
+    const { id, jobTitle, jobDescription,  salary, responsibilities, requiredSkills } = job;
 
     const handleApply = () => {
         console.log('apply');

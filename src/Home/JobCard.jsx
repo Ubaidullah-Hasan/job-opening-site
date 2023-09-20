@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const JobCard = ({ job }) => {
-    const { id, jobTitle, jobDescription, workType, startDate, salary, experience, applyLastDate, responsibilities, requiredSkills } = job;
+    const { id, jobTitle, workType, salary, experience, applyLastDate, responsibilities } = job;
 
     return (
         <div className='py-8 px-5 border shadow rounded-lg'>
@@ -16,7 +16,7 @@ const JobCard = ({ job }) => {
                 <p className='border p-2 text-center'>{workType}</p>
                 <p className='border p-2 text-center col-span-2'>Experience: {experience}</p>
             </div>
-            <button className='mt-4 btn'><Link to={jobTitle} className=''>Details</Link></button>
+            <Link to={jobTitle}><button className='mt-4 btn'>Details</button></Link>
         </div>
     );
 };
