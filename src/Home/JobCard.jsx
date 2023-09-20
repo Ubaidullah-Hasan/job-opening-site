@@ -5,7 +5,7 @@ const JobCard = ({ job }) => {
     const { id, jobTitle, workType, salary, experience, applyLastDate, responsibilities } = job;
 
     return (
-        <div className='py-8 px-5 border shadow rounded-lg'>
+        <div className='py-5 lg:py-8 px-3 lg:px-5 border shadow rounded-lg'>
             <h1 className='text-lg font-bold'>{jobTitle}</h1>
             <ul className='list-disc ps-5 text-gray-600 my-4'>
                 {
