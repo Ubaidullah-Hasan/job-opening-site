@@ -1,0 +1,122 @@
+[
+    {
+        "jobTitle": "Software Engineer",
+        "jobDescription": "We are seeking an experienced Software Engineer to join our dynamic team. In this role, you will be responsible for designing, developing, and maintaining web applications. You'll collaborate closely with cross-functional teams, troubleshoot technical issues, and ensure the performance and scalability of our software solutions. If you have 2+ years of experience in JavaScript, React, Node.js, and SQL, and you're passionate about creating high-quality software, we'd love to hear from you. Apply now to become a part of our innovative development team.",
+        "workType": "Full-Time",
+        "startDate": "2023-10-01",
+        "salary": "$80,000 - $100,000 per year",
+        "experience": "2+ years",
+        "applyLastDate": "2023-09-30",
+        "responsibilities": [
+            "Design and implement software solutions.",
+            "Collaborate with cross-functional teams.",
+            "Troubleshoot and resolve technical issues."
+        ],
+        "requiredSkills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "SQL"
+        ]
+    },
+    {
+        "jobTitle": "Marketing Manager",
+        "jobDescription": "Are you a seasoned Marketing Manager with a passion for creating and executing successful marketing campaigns? We are looking for a talented individual to lead our marketing efforts. In this role, you'll be responsible for developing and executing marketing plans, analyzing market trends and competition, and managing a marketing team. With 4+ years of experience in digital marketing, SEO, social media management, and data analysis, you can make a significant impact on our brand's success. Join our team and shape the future of our marketing strategy.",
+        "workType": "Part-Time",
+        "startDate": "2023-11-15",
+        "salary": "$50,000 - $60,000 per year (pro-rated)",
+        "experience": "4+ years",
+        "applyLastDate": "2023-10-31",
+        "responsibilities": [
+            "Develop and execute marketing plans.",
+            "Analyze market trends and competition.",
+            "Manage a marketing team."
+        ],
+        "requiredSkills": [
+            "Digital Marketing",
+            "SEO",
+            "Social Media Management",
+            "Data Analysis"
+        ]
+    },
+    {
+        "jobTitle": "Graphic Designer",
+        "jobDescription": "Calling all creative Graphic Designers! We're looking for a talented individual to join our team on a freelance basis. As a Graphic Designer, you'll be responsible for creating visually appealing graphics and designs, designing marketing materials, conceptualizing and executing creative ideas, and working on multiple design projects. With 3+ years of experience and proficiency in Adobe Creative Suite, graphic design, illustration, and typography, you can bring your creative vision to life and make a significant impact on our visual identity.",
+        "workType": "Freelance",
+        "startDate": "2023-09-25",
+        "salary": "Hourly rate based on experience",
+        "experience": "3+ years",
+        "applyLastDate": "2023-09-20",
+        "responsibilities": [
+            "Design marketing materials.",
+            "Conceptualize and execute creative ideas.",
+            "Work on multiple design projects."
+        ],
+        "requiredSkills": [
+            "Adobe Creative Suite",
+            "Graphic Design",
+            "Illustration",
+            "Typography"
+        ]
+    },
+    {
+        "jobTitle": "Data Analyst",
+        "jobDescription": "Analyze data and provide insights.",
+        "workType": "Remote",
+        "startDate": "2023-10-15",
+        "salary": "$70,000 - $90,000 per year",
+        "experience": "2+ years",
+        "applyLastDate": "2023-10-10",
+        "responsibilities": [
+            "Collect and analyze data sets.",
+            "Create data visualizations and reports.",
+            "Interpret data to inform decision-making."
+        ],
+        "requiredSkills": [
+            "Data Analysis",
+            "SQL",
+            "Data Visualization",
+            "Statistical Analysis"
+        ]
+    },
+    {
+        "jobTitle": "Customer Support Specialist",
+        "jobDescription": "Provide excellent customer service.",
+        "workType": "Full-Time",
+        "startDate": "2023-09-10",
+        "salary": "$45,000 - $55,000 per year",
+        "experience": "1+ year",
+        "applyLastDate": "2023-08-31",
+        "responsibilities": [
+            "Assist customers with inquiries and issues.",
+            "Resolve customer complaints and concerns.",
+            "Maintain accurate records of interactions."
+        ],
+        "requiredSkills": [
+            "Customer Service",
+            "Communication",
+            "Problem Solving",
+            "Empathy"
+        ]
+    },
+    {
+        "jobTitle": "Product Manager",
+        "jobDescription": "Lead product development and strategy.",
+        "workType": "Full-Time",
+        "startDate": "2023-11-01",
+        "salary": "$90,000 - $120,000 per year",
+        "experience": "5+ years",
+        "applyLastDate": "2023-10-20",
+        "responsibilities": [
+            "Define product roadmaps and priorities.",
+            "Collaborate with engineering and design teams.",
+            "Monitor and analyze product performance."
+        ],
+        "requiredSkills": [
+            "Product Management",
+            "Project Management",
+            "Market Research",
+            "Leadership"
+        ]
+    }
+]
