@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
         "jobTitle": "Software Engineer",
         "jobDescription": "We are seeking an experienced Software Engineer to join our dynamic team. In this role, you will be responsible for designing, developing, and maintaining web applications. You'll collaborate closely with cross-functional teams, troubleshoot technical issues, and ensure the performance and scalability of our software solutions. If you have 2+ years of experience in JavaScript, React, Node.js, and SQL, and you're passionate about creating high-quality software, we'd love to hear from you. Apply now to become a part of our innovative development team.",
         "workType": "Full-Time",
@@ -20,6 +21,7 @@
         ]
     },
     {
+        "id": "2",
         "jobTitle": "Marketing Manager",
         "jobDescription": "Are you a seasoned Marketing Manager with a passion for creating and executing successful marketing campaigns? We are looking for a talented individual to lead our marketing efforts. In this role, you'll be responsible for developing and executing marketing plans, analyzing market trends and competition, and managing a marketing team. With 4+ years of experience in digital marketing, SEO, social media management, and data analysis, you can make a significant impact on our brand's success. Join our team and shape the future of our marketing strategy.",
         "workType": "Part-Time",
@@ -40,6 +42,7 @@
         ]
     },
     {
+        "id": "3",
         "jobTitle": "Graphic Designer",
         "jobDescription": "Calling all creative Graphic Designers! We're looking for a talented individual to join our team on a freelance basis. As a Graphic Designer, you'll be responsible for creating visually appealing graphics and designs, designing marketing materials, conceptualizing and executing creative ideas, and working on multiple design projects. With 3+ years of experience and proficiency in Adobe Creative Suite, graphic design, illustration, and typography, you can bring your creative vision to life and make a significant impact on our visual identity.",
         "workType": "Freelance",
@@ -60,6 +63,7 @@
         ]
     },
     {
+        "id": "4",
         "jobTitle": "Data Analyst",
         "jobDescription": "Analyze data and provide insights.",
         "workType": "Remote",
@@ -70,7 +74,8 @@
         "responsibilities": [
             "Collect and analyze data sets.",
             "Create data visualizations and reports.",
-            "Interpret data to inform decision-making."
+            "Interpret data to inform decision-making.",
+            "Design and implement software solutions"
         ],
         "requiredSkills": [
             "Data Analysis",
@@ -80,6 +85,7 @@
         ]
     },
     {
+        "id": "5",
         "jobTitle": "Customer Support Specialist",
         "jobDescription": "Provide excellent customer service.",
         "workType": "Full-Time",
@@ -100,6 +106,7 @@
         ]
     },
     {
+        "id": "6",
         "jobTitle": "Product Manager",
         "jobDescription": "Lead product development and strategy.",
         "workType": "Full-Time",

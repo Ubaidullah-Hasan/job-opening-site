@@ -6,11 +6,17 @@ import {
 } from "react-router-dom";
 import Home from './Home/Home';
 import "./index.css"
+import JobDes from './JobDes/JobDes';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+  },
+  {
+    path: "/:jobtitle",
+    element: <JobDes></JobDes>,
+    loader: () => fetch('data.json')
   },
 ]);
 
