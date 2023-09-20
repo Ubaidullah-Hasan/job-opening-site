@@ -7,6 +7,7 @@ import {
 import Home from './Home/Home';
 import "./index.css"
 import JobDes from './JobDes/JobDes';
+import ApplyForm from './ApplyForm/ApplyForm';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
     element: <JobDes></JobDes>,
     loader: () => fetch('data.json')
   },
+  {
+    path: "/:jobtitle/apply-form",
+    element: <ApplyForm></ApplyForm>
+  }
+  
 ]);
 
 

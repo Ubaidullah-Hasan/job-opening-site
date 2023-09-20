@@ -1,15 +1,20 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 
 const JobDes = () => {
     const jobs = useLoaderData();
     const searchTitle = useParams();
+    const navigate = useNavigate(null);
 
     const job = jobs.find(jb => jb.jobTitle === searchTitle?.jobtitle);
-    console.log(job);
+    // console.log(job);
 
     const { id, jobTitle, jobDescription, workType, startDate, salary, experience, applyLastDate, responsibilities, requiredSkills } = job;
-    // console.log(id, jobTitle, jobDescription, workType, startDate, salary, experience, applyLastDate, responsibilities, requiredSkills)
+
+    const handleApply = () => {
+        console.log('apply');
+        navigate("apply-form");
+    }
 
     return (
         <div className='mt-10 lg:w-[70%] mx-auto border-2 border-blue-500 rounded-lg py-14 px-9'>
@@ -32,7 +37,7 @@ const JobDes = () => {
             </ul>
             <p className='mt-4'><span className='font-semibold text-lg capitalize'>salary:</span> {salary}</p>
 
-            <button className='btn btn-primary mt-5'>Apply</button>
+            <button onClick={()=>handleApply()} className='btn btn-primary mt-5'>Apply</button>
         </div>
     );
 };
